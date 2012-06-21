@@ -8,7 +8,6 @@ License: http://creativecommons.org/licenses/by/2.5/
 Credits: This is a PHP port of Rafael Lima's original Javascript CSS Browser Selector (http://rafael.adm.br/css_browser_selector). The port was created by Bastian Allgeier (http://bastian-allgeier.de), however he stopped updating the plugin in favor of his PHP toolkit, Kirby (http://getkirby.com/). Ian Hamilton (http://colorcrate.com) took over, adding support for numerous versions of Firefox and currently maintains the port.
 
 To Do:
-- Fix Chrome error (incorrectly adds "safari" to the string)
 - Fix Firefox so it doesn't need to be updated every time they release a new version
 */
 
@@ -64,7 +63,7 @@ function css_browser_selector($ua=null) {
 		} else if(strstr($ua, 'konqueror')) {
 				$b[] = 'konqueror';
 		} else if(strstr($ua, 'chrome')) {
-				$b[] = $w . ' ' . $s . ' chrome';
+				$b[] = $w . ' chrome';
 		} else if(strstr($ua, 'iron')) {
 				$b[] = $w . ' ' . $s . ' iron';
 		} else if(strstr($ua, 'applewebkit/')) {
