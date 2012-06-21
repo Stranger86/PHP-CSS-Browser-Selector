@@ -3,7 +3,7 @@
 /*
 PHP CSS Browser Selector v1.0.0
 Ian Hamilton (http://colorcrate.com)
-http://bastian-allgeier.de/css_browser_selector
+http://colorcrate.com/projects/php-css-browser-selector/
 License: http://creativecommons.org/licenses/by/2.5/
 Credits: This is a PHP port of Rafael Lima's original Javascript CSS Browser Selector (http://rafael.adm.br/css_browser_selector). The port was created by Bastian Allgeier (http://bastian-allgeier.de), however he stopped updating the plugin in favor of his PHP toolkit, Kirby (http://getkirby.com/). Ian Hamilton (http://colorcrate.com) took over, adding support for numerous versions of Firefox and currently maintains the port.
 

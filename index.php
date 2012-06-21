@@ -21,7 +21,7 @@
 	<p>To use the PHP CSS Browser Selector, do this:</p>
 	<ol>
 		<li>Put <b>bs.php</b> in a directory on your server.</li>
-		<li>Put the <b>code into your head</b> (open this .php file in your favorite text editor to see how).</li>
+		<li>Put the <b>code into your head</b>. Open this .php file in your favorite text editor to see how. (Don't have the .php file? <a href="https://github.com/colorcrate/PHP-CSS-Browser-Selector">Fork it on GitHub.</a>)</li>
 		<li>???</li>
 		<li><b>Enjoy</b> using browser-specific CSS selectors!</li>
 	</ol>
